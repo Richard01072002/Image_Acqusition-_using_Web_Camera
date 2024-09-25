@@ -35,7 +35,7 @@ End Program with 'q'. Allow the program to be terminated by pressing the 'q' key
 Developed By: RICHARDSON A
 Register No: 212222233005 
 
-## i) Write the frame as JPG file
+i) Write the frame as JPG file
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 ret, frame = videoCaptureObject.read()
@@ -50,7 +50,7 @@ cv2.destroyAllWindows()
 
 
 
-## ii) Display the video
+ii) Display the video
 
 videoCaptureObject = cv2.VideoCapture(0)
 while True:
@@ -62,7 +62,7 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()  
 
 
-## iii) Display the video by resizing the window
+iii) Display the video by resizing the window
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
@@ -84,7 +84,7 @@ cv2.destroyAllWindows()
 
 
 
-## iv) Rotate and display the video
+iv) Rotate and display the video
 import numpy as np
 cap = cv2.VideoCapture(0)
 while True:
