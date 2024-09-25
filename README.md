@@ -31,8 +31,9 @@ End Program with 'q'. Allow the program to be terminated by pressing the 'q' key
 
 ## Program:
 ``` Python
-### Developed By: RICHARDSON A
-### Register No: 212222233005 
+
+Developed By: RICHARDSON A
+Register No: 212222233005 
 
 ## i) Write the frame as JPG file
 import cv2
